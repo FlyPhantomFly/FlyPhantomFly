@@ -118,7 +118,6 @@ Connection to github closed by phantom. [process exited 0]
 
 <p align="center">
   <img src="https://img.shields.io/badge/Debian-the%20base-00FF9F?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
-  <img src="https://img.shields.io/badge/tmux-sessions-00FF9F?style=for-the-badge&logo=tmux&logoColor=white&labelColor=0D1117" alt="tmux" />
   <img src="https://img.shields.io/badge/zsh-muscle%20memory-00FF9F?style=for-the-badge&logo=zsh&logoColor=white&labelColor=0D1117" alt="zsh" />
 </p>
 
@@ -160,6 +159,8 @@ Connection to github closed by phantom. [process exited 0]
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ghidra-SRE-00FF9F?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/IDA%20Pro-decompiler-00FF9F?style=for-the-badge&labelColor=0D1117" alt="IDA Pro" />
+  <img src="https://img.shields.io/badge/IDA%20Assist-AI%20copilot-00FF9F?style=for-the-badge&labelColor=0D1117" alt="IDA Assist" />
   <img src="https://img.shields.io/badge/radare2-cli-00FF9F?style=for-the-badge&logo=radare2&logoColor=white&labelColor=0D1117" alt="radare2" />
   <img src="https://img.shields.io/badge/x64dbg-windows-00FF9F?style=for-the-badge&logo=x64dbg&logoColor=white&labelColor=0D1117" alt="x64dbg" />
   <img src="https://img.shields.io/badge/Frida-hooks-00FF9F?style=for-the-badge&logo=frida&logoColor=white&labelColor=0D1117" alt="Frida" />
