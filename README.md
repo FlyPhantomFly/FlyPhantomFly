@@ -42,7 +42,7 @@
 
 <br/>
 
-## 🪪 `$ whoami`
+## `$ whoami`
 
 ```bash
 phantom@parrot:~$ whoami
@@ -76,14 +76,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## 🤖 Android — from ROMs to root
+## Android — from ROMs to root
 
 > My pocket computer behaves exactly how I say — because I told it to.
 
-- 🔧 **ROMs & kernels** — flashing, patching, and the occasional 2 AM rescue mission
-- 🧷 **Root done right** — Magisk modules, LSPosed hooks, systemless everything
-- 🔬 **Deep in the stack** — ADB surgery, NDK/JNI, and smali archaeology when sources lie
-- 🛡️ **Hardened, not babysat** — my phone distrusts more apps than I do
+- **ROMs & kernels** — flashing, patching, and the occasional 2 AM rescue mission
+- **Root done right** — Magisk modules, LSPosed hooks, systemless everything
+- **Deep in the stack** — ADB surgery, NDK/JNI, and smali archaeology when sources lie
+- **Hardened, not babysat** — my phone distrusts more apps than I do
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -101,14 +101,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## 🦜 Parrot Linux — daily driver, not a VM
+## Parrot Linux — daily driver, not a VM
 
 > Full-time Parrot Security OS. The toolbox is home, and home is a toolbox.
 
-- 🦜 **Runs on metal** — not a VM, not a screenshot; a tuned, encrypted daily driver
-- 🧰 **Pentest utilities, reused for peace** — the same tools that probe networks also fix them
-- 🐧 **Debian underneath, terminal on top** — bash/zsh/tmux wired to muscle memory
-- 📦 **Reproducible nest** — scripts that can rebuild the whole roost from a bare ISO
+- **Runs on metal** — not a VM, not a screenshot; a tuned, encrypted daily driver
+- **Pentest utilities, reused for peace** — the same tools that probe networks also fix them
+- **Debian underneath, terminal on top** — bash/zsh/tmux wired to muscle memory
+- **Reproducible nest** — scripts that can rebuild the whole roost from a bare ISO
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -124,14 +124,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## 🧠 AI / LLM Research — tokens are the new bytecode
+## AI / LLM Research — tokens are the new bytecode
 
 > Small models that punch above their weight, and questions models don't want to answer.
 
-- 🧠 **Fine-tuning** — quantized open models tuned on humble hardware
-- 🧪 **Evals over vibes** — harnesses that measure what a model *does*, not what its README claims
-- 🛡️ **Adversarial curiosity** — prompt injection, jailbreak taxonomies, defense-in-depth prompting
-- 💻 **Local-first inference** — Ollama, llama.cpp; the phantom runs at home
+- **Fine-tuning** — quantized open models tuned on humble hardware
+- **Evals over vibes** — harnesses that measure what a model *does*, not what its README claims
+- **Adversarial curiosity** — prompt injection, jailbreak taxonomies, defense-in-depth prompting
+- **Local-first inference** — Ollama, llama.cpp; the phantom runs at home
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -149,14 +149,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## 🔬 Reverse Engineering — everything is reversible
+## Reverse Engineering — everything is reversible
 
 > APKs, ELFs, firmware. Everything confesses eventually.
 
-- 📱 **Mobile** — jadx + Ghidra + Frida; from Play Store to smali to *"oh, that's how it works"*
-- 🧮 **Binaries** — radare2 / Ghidra / x64dbg against ELF, PE and stubborn packers
-- 🔌 **Firmware & memory** — binwalk dumps, Volatility timelines, UART confessions
-- 🌐 **Traffic** — Wireshark + Burp; the network never lies (for long)
+- **Mobile** — jadx + Ghidra + Frida; from Play Store to smali to *"oh, that's how it works"*
+- **Binaries** — radare2 / Ghidra / x64dbg against ELF, PE and stubborn packers
+- **Firmware & memory** — binwalk dumps, Volatility timelines, UART confessions
+- **Traffic** — Wireshark + Burp; the network never lies (for long)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ghidra-SRE-00FF9F?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
@@ -178,7 +178,7 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## 📊 The phantom, quantified
+## The phantom, quantified
 
 <div align="center">
   <a href="https://github.com/FlyPhantomFly">
@@ -196,7 +196,7 @@ Connection to github closed by phantom. [process exited 0]
 </div>
 
 <details>
-<summary><b>🪞 PhantomThreads — the other shadow</b></summary>
+<summary><b>PhantomThreads — the other shadow</b></summary>
 <br/>
 <div align="center">
   <a href="https://git.io/streak-stats">

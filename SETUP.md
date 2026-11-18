@@ -25,7 +25,7 @@ A GitHub profile README only renders from a **special repository**:
 
 1. Go to **github.com/new** while signed in as **FlyPhantomFly**
 2. Repository name: **`FlyPhantomFly`** — GitHub will show a
-   "✨ FlyPhantomFly/FlyPhantomFly is a special repository" hint
+   "FlyPhantomFly/FlyPhantomFly is a special repository" hint
 3. Visibility: **Public**
 4. **Do not** initialize with a README/license/.gitignore (we have files)
 5. Create it
