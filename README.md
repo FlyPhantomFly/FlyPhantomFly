@@ -44,7 +44,7 @@
 
 ```bash
 phantom@parrot:~$ whoami
-FlyPhantomFly. @PhantomThreads is the one you don't see.
+FlyPhantomFly. PhantomThreads is the one you don't see.
 
 phantom@parrot:~$ cat ~/profile.md
 i break android phones, mostly on purpose. i run parrot as a daily
@@ -55,15 +55,15 @@ something gets disassembled. carefully. mostly legally.
 phantom@parrot:~$ ps aux | grep -i passion
 USER              COMMAND
 android           roms --kernels --kernelsu --adb-surgery --smali
-parrot-linux      mate-desktop --pentest-toolbox --daily-driver
-llm-research      finetune --evals --local-inference --token-archaeology
+parrot-linux      kde-desktop --pentest-toolbox
+llm-research      ablation --evals --local-inference --token-burning
 reverse-eng       apk --elf --firmware --everything-is-reversible
 
 phantom@parrot:~$ history | tail -4
   101  adb shell su -c "curiosity > warranty"
   102  parrot-upgrade && echo "still flying"
-  103  python finetune.py --model small --tokens many
-  104  r2 -A target.bin   # read the disassembly, not the docs
+  103  python ablation.py --model small --tokens too-many =]
+  104  r2 -A target.bin   //read the disassembly, not the docs
 
 phantom@parrot:~$ logout
 Connection to github closed by phantom. [process exited 0]
@@ -75,12 +75,12 @@ Connection to github closed by phantom. [process exited 0]
 
 ## android stuff
 
-> my phone does what i tell it to. most days.
+> my phone does what i tell it to. most days...
 
-- custom roms and kernels, flashed responsibly (mostly)
-- KernelSU + LSPosed. root lives in the kernel, not userspace
+- custom roms and kernels, flashed irresponsibly
+- KernelSU + Neozygisk + Vector.
 - adb surgery and smali reading for when the source code lies
-- my phone runs fewer apps than yours. on purpose
+- my phone often hates me
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -102,10 +102,9 @@ Connection to github closed by phantom. [process exited 0]
 
 > full time Parrot Security OS. the toolbox is home. home is a toolbox.
 
-- parrot security os, installed on metal. not a VM, not a screenshot
-- the pentest toolbox doubles as the home toolbox
+- parrot security os, installed on metal. not a VM
 - debian underneath, terminal on top
-- somewhere there's a script that rebuilds all of this from a bare ISO
+- somewhere there's a script that rebuilds all of this from a bare ISO, if only I could find it
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -125,9 +124,9 @@ Connection to github closed by phantom. [process exited 0]
 > small models, big questions, and hardware that wasn't supposed to do this.
 
 - fine tuning small models on hardware that has no business running them
-- evals over vibes. what the model does, not what the model card claims
+- evals over vibes. what the model does, not what the model claims
+- ablation speaks louder ;)
 - prompt injection, jailbreak taxonomy, and defenses that actually hold
-- ollama and llama.cpp at home. if it can't run locally, it doesn't run
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -149,10 +148,10 @@ Connection to github closed by phantom. [process exited 0]
 
 > APKs, ELFs, firmware. sooner or later everything confesses.
 
-- jadx, ghidra and frida for apks. lots of "oh, so that's how it works"
-- radare2, x64dbg and gdb for binaries, plus packers that fight back
-- binwalk and volatility for firmware and memory forensics
-- wireshark and burp for traffic. the network never lies for long
+- jadx, ida and frida for apks.
+- radare2, ida assist, unicorn and edbg for binaries, plus packers that fight back
+- binwalk, dissect and volatility for firmware and memory forensics
+- wireshark, mitm and burp for traffic. the network never lies for long
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ghidra-SRE-00FF9F?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
