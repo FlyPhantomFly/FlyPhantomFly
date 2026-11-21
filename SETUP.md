@@ -1,4 +1,4 @@
-# SETUP — deploying & maintaining the profile
+# SETUP: deploying & maintaining the profile
 
 A GitHub profile README only renders from a **special repository**:
 
@@ -13,7 +13,7 @@ A GitHub profile README only renders from a **special repository**:
 
 | Path | What it is |
 |---|---|
-| `README.md` | The profile itself — copy lives here, push it as-is |
+| `README.md` | The profile itself, copy lives here, push it as-is |
 | `.github/workflows/snake.yml` | Daily Action: renders the animated contribution snake → `output` branch |
 | `.github/workflows/profile-3d.yml` | Daily Action: renders the 3D contribution wall → `profile-3d-contrib/` |
 | `preview.html` | Local browser preview of the live widgets (open it right now) |
@@ -24,7 +24,7 @@ A GitHub profile README only renders from a **special repository**:
 ## 2. Create the special repo (web, ~30 seconds)
 
 1. Go to **github.com/new** while signed in as **FlyPhantomFly**
-2. Repository name: **`FlyPhantomFly`** — GitHub will show a
+2. Repository name: **`FlyPhantomFly`**, GitHub will show a
    "FlyPhantomFly/FlyPhantomFly is a special repository" hint
 3. Visibility: **Public**
 4. **Do not** initialize with a README/license/.gitignore (we have files)
@@ -43,7 +43,7 @@ git push -u origin main
 ```
 
 > If you'd rather upload via the web UI: create the repo with no files,
-> then use **Add file → Upload files** and drag everything in — but keep
+> then use **Add file → Upload files** and drag everything in, but keep
 > the folder structure (`.github/workflows/…` must stay nested).
 
 ---
@@ -60,11 +60,11 @@ appear only after the workflows have run once:
    - This creates the **`output`** branch that the README embeds from
 3. Then → **GitHub-Profile-3D-Contrib** → **Run workflow** → wait ~1 min
    - This commits **`profile-3d-contrib/`** into `main`
-4. Open `https://github.com/FlyPhantomFly` — everything should now be
+4. Open `https://github.com/FlyPhantomFly`, everything should now be
    alive: the header fade-in, the typing tagline, the streak ring, the
    3D wall, and the snake devouring your contribution graph
 
-After that, both Actions run themselves on a daily cron — plus on every
+After that, both Actions run themselves on a daily cron, plus on every
 push to `main`, so tweaks regenerate instantly.
 
 ### What animates
@@ -80,7 +80,7 @@ push to `main`, so tweaks regenerate instantly.
 
 Why no JavaScript? GitHub's README sanitizer strips `<script>`, `<style>`
 and inline CSS. Everything above is server-rendered SVG with SMIL
-animation, which the sanitizer permits — that's the whole trick.
+animation, which the sanitizer permits, that's the whole trick.
 
 ---
 
@@ -97,11 +97,11 @@ If you ever want the profile to live on the other account:
    - the followers badge URL
    - both `github-readme-stats.vercel.app` cards + the activity graph
    - the `whoami` block (cosmetic)
-   — and swap the "other shadow" badge in the opposite direction
+   - and swap the "other shadow" badge in the opposite direction
 3. Nothing else: both workflows use `github.repository_owner`, so the
    snake and 3D wall re-target themselves automatically on the new repo.
 
-> Note: PhantomThreads was created Jul 2026 — its cards will look
+> Note: PhantomThreads was created Jul 2026, its cards will look
 > sparse until the account has public activity. That's expected; the
 > stats API can't summarize a brand-new account yet, which is why the
 > shadow section uses streak + languages cards (both render cleanly
@@ -112,32 +112,32 @@ If you ever want the profile to live on the other account:
 ## 6. Customization cheat sheet
 
 **Palette** (find & replace across `README.md`):
-`0D1117` dark base · `00FF9F` neon green · `0070F3` vercel blue
+`0D1117` dark base, `00FF9F` neon green, `0070F3` vercel blue
 
-**Typing lines** — in the `readme-typing-svg` URL:
-- lines separated by `;`, spaces as `+`, `·` as `%C2%B7`, `/` as `%2F`
+**Typing lines**: in the `readme-typing-svg` URL:
+- lines separated by `;`, spaces as `+`, commas as `%2C`, colons as `%3A`, apostrophes as `%27`
 - tune `duration` (typing speed) and `pause` (hold time), both in ms
 
-**Header text / size** — capsule-render URL: `text=`, `fontSize=`,
+**Header text / size**: capsule-render URL: `text=`, `fontSize=`,
 `fontAlignY=` (vertical position, 0–100). Footer same idea.
 
-**3D wall variant** — one-line swap of the relative path:
+**3D wall variant**: one-line swap of the relative path:
 - `./profile-3d-contrib/profile-night-rainbow.svg` (current: dark, neon)
 - `./profile-3d-contrib/profile-green-animate.svg` ← **animated**, light bg
 - `./profile-3d-contrib/profile-season-animate.svg` ← animated, seasonal
 - `./profile-3d-contrib/profile-gitblock.svg` ← Minecraft-y blocks
 - `./profile-3d-contrib/profile-night-green.svg` ← dark, muted
 
-**Snake colors** — in `snake.yml`, the `outputs:` block accepts query
+**Snake colors**: in `snake.yml`, the `outputs:` block accepts query
 params, e.g. `dist/github-contribution-grid-snake.svg?palette=github-dark`
 (current). Other palettes live in the Platane/snk README.
 
-**Skill rows** — `https://skillicons.dev/icons?i=a,b,c` — full icon list
+**Skill rows**: `https://skillicons.dev/icons?i=a,b,c`, full icon list
 at skillicons.dev (note: Python is `py`, Android Studio is
 `androidstudio`, Scikit-learn is `sklearn`).
 
-**Tool badges** — `img.shields.io/badge/<LABEL>-<VALUE>-<COLOR>?style=for-the-badge&logo=<slug>`
-— every logo slug used here (ghidra, radare2, frida, x64dbg, gdb,
+**Tool badges**: `img.shields.io/badge/<LABEL>-<VALUE>-<COLOR>?style=for-the-badge&logo=<slug>`
+- every logo slug used here (ghidra, radare2, frida, x64dbg, gdb,
 volatility, kernelsu, termux, ollama, vllm, lmstudio, …) has been
 live-verified to exist in simple-icons.
 
@@ -146,19 +146,19 @@ live-verified to exist in simple-icons.
 ## 7. Maintenance notes
 
 - **Version pins:** the 3D wall action is pinned to `v0.9.3` for
-  reproducibility — bump that tag in `profile-3d.yml` when upstream
+  reproducibility, bump that tag in `profile-3d.yml` when upstream
   (yoshi389111/github-profile-3d-contrib) cuts a release you want.
-- **Action minutes:** each run ≈ 1–2 min, twice a day ≈ 90 min/month —
+- **Action minutes:** each run ≈ 1–2 min, twice a day ≈ 90 min/month,
   far below the free tier (2000 min/month for private repos; public
   repos are unlimited & free anyway).
 - **Public stats endpoints** (github-readme-stats, streak-stats,
   typing-svg) occasionally cold-start or rate-limit. If a card ever
   shows an error: hard-refresh first (GitHub's camo image cache can
   persist ~minutes), and if it persists, each project offers a one-click
-  self-host (Vercel deploy button in their READMEs) — swap the domain in
+  self-host (Vercel deploy button in their READMEs), swap the domain in
   your README URLs and you're independent of the public instance.
 - **Activity graph** is served from the maintainer's Cloudflare Worker
-  (the old `.vercel.app` URL is dead — don't copy it from old tutorials).
+  (the old `.vercel.app` URL is dead, don't copy it from old tutorials).
   Self-hosting instructions are in that project's README if you ever need it.
 - **Camo cache:** if you change a badge URL and GitHub keeps showing the
   old image, append `&v=2` (any cache-buster) to force a re-fetch.
@@ -175,6 +175,6 @@ live-verified to exist in simple-icons.
 | README doesn't appear on my profile | Repo must be public, named exactly `FlyPhantomFly`, README at root of default branch |
 | Snake / 3D wall images broken | Run both workflows manually; confirm `output` branch and `profile-3d-contrib/` exist; hard-refresh (camo cache) |
 | Workflow fails to push | Repo → Settings → Actions → General → **Workflow permissions** → select **Read and write permissions** |
-| Stats cards show error text | Public instance cold-start/rate-limit — retry, or self-host (§7) |
+| Stats cards show error text | Public instance cold-start/rate-limit, retry, or self-host (§7) |
 | Typing SVG shows nothing | Check the `width=` param covers your longest line (currently 700px for 47-char lines) |
-| Badges show `logo not found` | You changed a badge — the `logo=` slug must exist at simpleicons.org |
+| Badges show `logo not found` | You changed a badge, the `logo=` slug must exist at simpleicons.org |

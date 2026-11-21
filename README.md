@@ -1,21 +1,19 @@
 <!-- ═══════════════════════════════════════════════════════════════════
-     FlyPhantomFly · GitHub profile README
+     FlyPhantomFly, github profile readme
 
-     Everything here is GitHub-safe: no JS, no CSS (GitHub strips both).
-     All motion comes from SMIL-animated SVGs + Actions-generated assets:
+     github strips js and css from readmes, so the moving parts here
+     are server rendered svg plus two github actions:
 
-       1. capsule-render header / footer  → fadeIn + blinking text
-       2. readme-typing-svg tagline       → endless typing loop
-       3. streak-stats card               → animated ring & fire
-       4. contribution snake              → SMIL path animation, built by
-          the "generate contribution snake" workflow → `output` branch
-       5. 3D contribution wall            → built by
-          "GitHub-Profile-3D-Contrib" → committed to ./profile-3d-contrib/
+       - capsule-render: header fade in, blinking $ exit footer
+       - readme-typing-svg: the typing loop
+       - streak-stats: the animated ring
+       - contribution snake: .github/workflows/snake.yml, pushed to
+         the output branch
+       - 3d wall: .github/workflows/profile-3d.yml, committed to
+         profile-3d-contrib/
 
-     The snake & the 3D wall appear after their first workflow run
-     (Actions tab → Run workflow). See SETUP.md for deployment.
-
-     Palette: dark #0D1117 · neon green #00FF9F · vercel blue #0070F3
+     the snake and the wall show up after the first workflow run.
+     palette: #0D1117 dark, #00FF9F green, #0070F3 blue
      ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
@@ -27,7 +25,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Android+enthusiast+%C2%B7+ROMs%2C+kernels+%26+root;Parrot+Linux+devotee+%C2%B7+daily+driver%2C+not+a+VM;AI%2FLLM+researcher+%C2%B7+tokens+are+the+new+bytecode;Reverse+engineer+%C2%B7+everything+is+reversible&font=JetBrains+Mono&size=22&color=00FF9F&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver%2C+not+a+VM;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=00FF9F&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -46,14 +44,13 @@
 
 ```bash
 phantom@parrot:~$ whoami
-FlyPhantomFly — the phantom you see. @PhantomThreads is the one you don't.
+FlyPhantomFly. @PhantomThreads is the one you don't see.
 
 phantom@parrot:~$ cat ~/profile.md
-I live where Android internals meet Linux userland and LLM research.
-Some days I'm flashing ROMs or reading smali until the sources confess.
-Some days I'm haunting a Parrot terminal, asking language models
-questions they didn't want to answer. The rest of the time,
-something gets disassembled — carefully, and mostly legally.
+i break android phones, mostly on purpose. i run parrot as a daily
+driver and treat it like one. some days i fine tune small llms and
+ask them questions they'd rather not answer. the rest of the time
+something gets disassembled. carefully. mostly legally.
 
 phantom@parrot:~$ ps aux | grep -i passion
 USER              COMMAND
@@ -76,14 +73,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## Android — from ROMs to root
+## android stuff
 
-> My pocket computer behaves exactly how I say — because I told it to.
+> my phone does what i tell it to. most days.
 
-- **ROMs & kernels** — flashing, patching, and the occasional 2 AM rescue mission
-- **Root done right** — KernelSU modules, LSPosed hooks, root that lives in the kernel — not userspace
-- **Deep in the stack** — ADB surgery, NDK/JNI, and smali archaeology when sources lie
-- **Hardened, not babysat** — my phone distrusts more apps than I do
+- custom roms and kernels, flashed responsibly (mostly)
+- KernelSU + LSPosed. root lives in the kernel, not userspace
+- adb surgery and smali reading for when the source code lies
+- my phone runs fewer apps than yours. on purpose
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -101,14 +98,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## Parrot Linux — daily driver, not a VM
+## the parrot setup
 
-> Full-time Parrot Security OS. The toolbox is home, and home is a toolbox.
+> full time Parrot Security OS. the toolbox is home. home is a toolbox.
 
-- **Runs on metal** — not a VM, not a screenshot; a tuned, encrypted daily driver
-- **Pentest utilities, reused for peace** — the same tools that probe networks also fix them
-- **Debian underneath, terminal on top** — bash/zsh/tmux wired to muscle memory
-- **Reproducible nest** — scripts that can rebuild the whole roost from a bare ISO
+- parrot security os, installed on metal. not a VM, not a screenshot
+- the pentest toolbox doubles as the home toolbox
+- debian underneath, terminal on top
+- somewhere there's a script that rebuilds all of this from a bare ISO
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -123,14 +120,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## AI / LLM Research — tokens are the new bytecode
+## llm research
 
-> Small models that punch above their weight, and questions models don't want to answer.
+> small models, big questions, and hardware that wasn't supposed to do this.
 
-- **Fine-tuning** — quantized open models tuned on humble hardware
-- **Evals over vibes** — harnesses that measure what a model *does*, not what its README claims
-- **Adversarial curiosity** — prompt injection, jailbreak taxonomies, defense-in-depth prompting
-- **Local-first inference** — Ollama, llama.cpp; the phantom runs at home
+- fine tuning small models on hardware that has no business running them
+- evals over vibes. what the model does, not what the model card claims
+- prompt injection, jailbreak taxonomy, and defenses that actually hold
+- ollama and llama.cpp at home. if it can't run locally, it doesn't run
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -148,14 +145,14 @@ Connection to github closed by phantom. [process exited 0]
 
 ---
 
-## Reverse Engineering — everything is reversible
+## reverse engineering
 
-> APKs, ELFs, firmware. Everything confesses eventually.
+> APKs, ELFs, firmware. sooner or later everything confesses.
 
-- **Mobile** — jadx + Ghidra + Frida; from Play Store to smali to *"oh, that's how it works"*
-- **Binaries** — radare2 / Ghidra / x64dbg against ELF, PE and stubborn packers
-- **Firmware & memory** — binwalk dumps, Volatility timelines, UART confessions
-- **Traffic** — Wireshark + Burp; the network never lies (for long)
+- jadx, ghidra and frida for apks. lots of "oh, so that's how it works"
+- radare2, x64dbg and gdb for binaries, plus packers that fight back
+- binwalk and volatility for firmware and memory forensics
+- wireshark and burp for traffic. the network never lies for long
 
 <p align="center">
   <img src="https://img.shields.io/badge/Ghidra-SRE-00FF9F?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
@@ -174,12 +171,12 @@ Connection to github closed by phantom. [process exited 0]
 </p>
 
 <p align="center">
-  <sub>Interoperability, security research, and making software behave.</sub>
+  <sub>for interop, security research, and making software behave.</sub>
 </p>
 
 ---
 
-## The phantom, quantified
+## the numbers
 
 <div align="center">
   <a href="https://github.com/FlyPhantomFly">
@@ -197,7 +194,7 @@ Connection to github closed by phantom. [process exited 0]
 </div>
 
 <details>
-<summary><b>PhantomThreads — the other shadow</b></summary>
+<summary><b>PhantomThreads, the other shadow</b></summary>
 <br/>
 <div align="center">
   <a href="https://git.io/streak-stats">
@@ -212,7 +209,7 @@ Connection to github closed by phantom. [process exited 0]
 </div>
 
 <p align="center">
-  <sub>the shadow is young — these cards fill in as it moves</sub>
+  <sub>the shadow is young. these cards fill in as it moves</sub>
 </p>
 </details>
 
@@ -245,5 +242,5 @@ Connection to github closed by phantom. [process exited 0]
 </div>
 
 <div align="center">
-  <sub>Built on Parrot Security OS · animated nightly by GitHub Actions · no JavaScript, no trackers — just SVG</sub>
+  <sub>built on Parrot Security OS, animated nightly by GitHub Actions. no javascript, no trackers, just svg</sub>
 </div>
