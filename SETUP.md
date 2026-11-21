@@ -112,7 +112,7 @@ If you ever want the profile to live on the other account:
 ## 6. Customization cheat sheet
 
 **Palette** (find & replace across `README.md`):
-`0D1117` dark base, `00FF9F` neon green, `0070F3` vercel blue
+`0D1117` dark base, `10B981` calm emerald, `1E3A8A` deep navy
 
 **Typing lines**: in the `readme-typing-svg` URL:
 - lines separated by `;`, spaces as `+`, commas as `%2C`, colons as `%3A`, apostrophes as `%27`
@@ -137,8 +137,8 @@ at skillicons.dev (note: Python is `py`, Android Studio is
 `androidstudio`, Scikit-learn is `sklearn`).
 
 **Tool badges**: `img.shields.io/badge/<LABEL>-<VALUE>-<COLOR>?style=for-the-badge&logo=<slug>`
-- every logo slug used here (ghidra, radare2, frida, x64dbg, gdb,
-volatility, kernelsu, termux, ollama, vllm, lmstudio, …) has been
+- every logo slug used here (ghidra, radare2, frida, kernelsu,
+termux, lineageos, debian, huggingface, ollama, langchain, …) has been
 live-verified to exist in simple-icons.
 
 ---

@@ -13,28 +13,28 @@
          profile-3d-contrib/
 
      the snake and the wall show up after the first workflow run.
-     palette: #0D1117 dark, #00FF9F green, #0070F3 blue
+     palette: #0D1117 dark, #10B981 emerald, #1E3A8A deep navy
      ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
 <a href="https://github.com/FlyPhantomFly">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0070F3,50:00FF9F,100:0070F3&height=200&section=header&text=FlyPhantomFly&fontSize=45&fontColor=E6EDF3&animation=fadeIn&fontAlignY=35" width="100%" alt="FlyPhantomFly" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:10B981,100:1E3A8A&height=200&section=header&text=FlyPhantomFly&fontSize=45&fontColor=E6EDF3&animation=fadeIn&fontAlignY=35" width="100%" alt="FlyPhantomFly" />
 </a>
 
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver%2C+not+a+VM;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=00FF9F&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver%2C+not+a+VM;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=10B981&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
 </a>
 
 <br/>
 <br/>
 
-<a href="https://github.com/FlyPhantomFly?tab=followers"><img src="https://img.shields.io/github/followers/FlyPhantomFly?label=Followers&style=flat-square&color=0070F3&labelColor=0D1117" alt="Followers" /></a>
-<a href="https://github.com/PhantomThreads"><img src="https://img.shields.io/badge/My%20other%20shadow-PhantomThreads-00FF9F?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="PhantomThreads" /></a>
-<img src="https://komarev.com/ghpvc/?username=FlyPhantomFly&color=00FF9F&style=flat-square&label=VISITORS" alt="Visitors" />
-<img src="https://img.shields.io/badge/OS-Parrot%20Security-00FF9F?style=for-the-badge&logo=linux&logoColor=white&labelColor=0D1117" alt="Parrot Security OS" />
+<a href="https://github.com/FlyPhantomFly?tab=followers"><img src="https://img.shields.io/github/followers/FlyPhantomFly?label=Followers&style=flat-square&color=1E3A8A&labelColor=0D1117" alt="Followers" /></a>
+<a href="https://github.com/PhantomThreads"><img src="https://img.shields.io/badge/My%20other%20shadow-PhantomThreads-10B981?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="PhantomThreads" /></a>
+<img src="https://komarev.com/ghpvc/?username=FlyPhantomFly&color=10B981&style=flat-square&label=VISITORS" alt="Visitors" />
+<img src="https://img.shields.io/badge/OS-Parrot%20Security-10B981?style=for-the-badge&logo=linux&logoColor=white&labelColor=0D1117" alt="Parrot Security OS" />
 
 </div>
 
@@ -89,11 +89,9 @@ Connection to github closed by phantom. [process exited 0]
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/KernelSU-root-0070F3?style=for-the-badge&logo=kernelsu&logoColor=white&labelColor=0D1117" alt="KernelSU" />
-  <img src="https://img.shields.io/badge/ADB-surgery-0070F3?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117" alt="ADB" />
-  <img src="https://img.shields.io/badge/Termux-pocket%20linux-0070F3?style=for-the-badge&logo=termux&logoColor=white&labelColor=0D1117" alt="Termux" />
-  <img src="https://img.shields.io/badge/LineageOS-ROMs-0070F3?style=for-the-badge&logo=lineageos&logoColor=white&labelColor=0D1117" alt="LineageOS" />
-  <img src="https://img.shields.io/badge/F--Droid-FOSS-0070F3?style=for-the-badge&logo=fdroid&logoColor=white&labelColor=0D1117" alt="F-Droid" />
+  <img src="https://img.shields.io/badge/KernelSU-root-1E3A8A?style=for-the-badge&logo=kernelsu&logoColor=white&labelColor=0D1117" alt="KernelSU" />
+  <img src="https://img.shields.io/badge/Termux-pocket%20linux-1E3A8A?style=for-the-badge&logo=termux&logoColor=white&labelColor=0D1117" alt="Termux" />
+  <img src="https://img.shields.io/badge/LineageOS-ROMs-1E3A8A?style=for-the-badge&logo=lineageos&logoColor=white&labelColor=0D1117" alt="LineageOS" />
 </p>
 
 ---
@@ -113,8 +111,7 @@ Connection to github closed by phantom. [process exited 0]
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Debian-the%20base-00FF9F?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
-  <img src="https://img.shields.io/badge/zsh-muscle%20memory-00FF9F?style=for-the-badge&logo=zsh&logoColor=white&labelColor=0D1117" alt="zsh" />
+  <img src="https://img.shields.io/badge/Debian-the%20base-10B981?style=for-the-badge&logo=debian&logoColor=white&labelColor=0D1117" alt="Debian" />
 </p>
 
 ---
@@ -135,11 +132,9 @@ Connection to github closed by phantom. [process exited 0]
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Hugging%20Face-models-0070F3?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=0D1117" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/Ollama-local%20LLM-0070F3?style=for-the-badge&logo=ollama&logoColor=white&labelColor=0D1117" alt="Ollama" />
-  <img src="https://img.shields.io/badge/LangChain-RAG-0070F3?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0D1117" alt="LangChain" />
-  <img src="https://img.shields.io/badge/vLLM-inference-0070F3?style=for-the-badge&logo=vllm&logoColor=white&labelColor=0D1117" alt="vLLM" />
-  <img src="https://img.shields.io/badge/LM%20Studio-lab-0070F3?style=for-the-badge&logo=lmstudio&logoColor=white&labelColor=0D1117" alt="LM Studio" />
+  <img src="https://img.shields.io/badge/Hugging%20Face-models-1E3A8A?style=for-the-badge&logo=huggingface&logoColor=white&labelColor=0D1117" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Ollama-local%20LLM-1E3A8A?style=for-the-badge&logo=ollama&logoColor=white&labelColor=0D1117" alt="Ollama" />
+  <img src="https://img.shields.io/badge/LangChain-RAG-1E3A8A?style=for-the-badge&logo=langchain&logoColor=white&labelColor=0D1117" alt="LangChain" />
 </p>
 
 ---
@@ -154,19 +149,11 @@ Connection to github closed by phantom. [process exited 0]
 - wireshark, mitm and burp for traffic. the network never lies for long
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Ghidra-SRE-00FF9F?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
-  <img src="https://img.shields.io/badge/IDA%20Pro-decompiler-00FF9F?style=for-the-badge&labelColor=0D1117" alt="IDA Pro" />
-  <img src="https://img.shields.io/badge/IDA%20Assist-AI%20copilot-00FF9F?style=for-the-badge&labelColor=0D1117" alt="IDA Assist" />
-  <img src="https://img.shields.io/badge/radare2-cli-00FF9F?style=for-the-badge&logo=radare2&logoColor=white&labelColor=0D1117" alt="radare2" />
-  <img src="https://img.shields.io/badge/x64dbg-windows-00FF9F?style=for-the-badge&logo=x64dbg&logoColor=white&labelColor=0D1117" alt="x64dbg" />
-  <img src="https://img.shields.io/badge/Frida-hooks-00FF9F?style=for-the-badge&logo=frida&logoColor=white&labelColor=0D1117" alt="Frida" />
-  <img src="https://img.shields.io/badge/GDB-ptrace-00FF9F?style=for-the-badge&logo=gdb&logoColor=white&labelColor=0D1117" alt="GDB" />
-  <img src="https://img.shields.io/badge/Wireshark-traffic-00FF9F?style=for-the-badge&logo=wireshark&logoColor=white&labelColor=0D1117" alt="Wireshark" />
-  <img src="https://img.shields.io/badge/Burp%20Suite-proxy-00FF9F?style=for-the-badge&logo=burpsuite&logoColor=white&labelColor=0D1117" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Nmap-recon-00FF9F?style=for-the-badge&logo=nmap&logoColor=white&labelColor=0D1117" alt="Nmap" />
-  <img src="https://img.shields.io/badge/Metasploit-exploit-00FF9F?style=for-the-badge&logo=metasploit&logoColor=white&labelColor=0D1117" alt="Metasploit" />
-  <img src="https://img.shields.io/badge/Volatility-memory-00FF9F?style=for-the-badge&logo=volatility&logoColor=white&labelColor=0D1117" alt="Volatility" />
-  <img src="https://img.shields.io/badge/Hashcat-crack-00FF9F?style=for-the-badge&logo=hashcat&logoColor=white&labelColor=0D1117" alt="Hashcat" />
+  <img src="https://img.shields.io/badge/Ghidra-SRE-10B981?style=for-the-badge&logo=ghidra&logoColor=white&labelColor=0D1117" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/IDA%20Pro-decompiler-10B981?style=for-the-badge&labelColor=0D1117" alt="IDA Pro" />
+  <img src="https://img.shields.io/badge/IDA%20Assist-AI%20copilot-10B981?style=for-the-badge&labelColor=0D1117" alt="IDA Assist" />
+  <img src="https://img.shields.io/badge/radare2-cli-10B981?style=for-the-badge&logo=radare2&logoColor=white&labelColor=0D1117" alt="radare2" />
+  <img src="https://img.shields.io/badge/Frida-hooks-10B981?style=for-the-badge&logo=frida&logoColor=white&labelColor=0D1117" alt="Frida" />
 </p>
 
 <p align="center">
@@ -179,16 +166,16 @@ Connection to github closed by phantom. [process exited 0]
 
 <div align="center">
   <a href="https://github.com/FlyPhantomFly">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=FlyPhantomFly&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FF9F&icon_color=0070F3&text_color=C9D1D9&border_color=0070F3&ring_color=00FF9F" alt="FlyPhantomFly's GitHub stats" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=FlyPhantomFly&show_icons=true&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=10B981&icon_color=1E3A8A&text_color=C9D1D9&border_color=1E3A8A&ring_color=10B981" alt="FlyPhantomFly's GitHub stats" />
   </a>
   <a href="https://github.com/FlyPhantomFly?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlyPhantomFly&layout=compact&langs_count=8&bg_color=0D1117&title_color=00FF9F&text_color=C9D1D9&border_color=0070F3" alt="Top languages" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FlyPhantomFly&layout=compact&langs_count=8&bg_color=0D1117&title_color=10B981&text_color=C9D1D9&border_color=1E3A8A" alt="Top languages" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img width="500" src="https://streak-stats.demolab.com/?user=FlyPhantomFly&background=0D1117&border=0070F3&stroke=161B22&ring=00FF9F&fire=0070F3&currStreakNum=00FF9F&currStreakLabel=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub streak" />
+    <img width="500" src="https://streak-stats.demolab.com/?user=FlyPhantomFly&background=0D1117&border=1E3A8A&stroke=161B22&ring=10B981&fire=1E3A8A&currStreakNum=10B981&currStreakLabel=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="GitHub streak" />
   </a>
 </div>
 
@@ -197,13 +184,13 @@ Connection to github closed by phantom. [process exited 0]
 <br/>
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img width="500" src="https://streak-stats.demolab.com/?user=PhantomThreads&background=0D1117&border=0070F3&stroke=161B22&ring=00FF9F&fire=0070F3&currStreakNum=00FF9F&currStreakLabel=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="PhantomThreads streak" />
+    <img width="500" src="https://streak-stats.demolab.com/?user=PhantomThreads&background=0D1117&border=1E3A8A&stroke=161B22&ring=10B981&fire=1E3A8A&currStreakNum=10B981&currStreakLabel=C9D1D9&sideNums=C9D1D9&sideLabels=C9D1D9&dates=8B949E" alt="PhantomThreads streak" />
   </a>
 </div>
 
 <div align="center">
   <a href="https://github.com/PhantomThreads?tab=repositories">
-    <img height="130" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantomThreads&layout=compact&langs_count=8&bg_color=0D1117&title_color=00FF9F&text_color=C9D1D9&border_color=0070F3" alt="PhantomThreads top languages" />
+    <img height="130" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PhantomThreads&layout=compact&langs_count=8&bg_color=0D1117&title_color=10B981&text_color=C9D1D9&border_color=1E3A8A" alt="PhantomThreads top languages" />
   </a>
 </div>
 
@@ -215,7 +202,7 @@ Connection to github closed by phantom. [process exited 0]
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=FlyPhantomFly&bg_color=0D1117&color=8B949E&line=0070F3&point=00FF9F&area=true&area_color=0070F3&title_color=00FF9F&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph" />
+  <img src="https://github-readme-activity-graph.ashutosh-dwivedi0710.workers.dev/graph?username=FlyPhantomFly&bg_color=0D1117&color=8B949E&line=1E3A8A&point=10B981&area=true&area_color=1E3A8A&title_color=10B981&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph" />
 </div>
 
 <br/>
@@ -237,7 +224,7 @@ Connection to github closed by phantom. [process exited 0]
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0070F3,50:00FF9F,100:0070F3&height=100&section=footer&text=%24%20exit&fontSize=25&fontColor=E6EDF3&animation=blinking" width="100%" alt="$ exit" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:10B981,100:1E3A8A&height=100&section=footer&text=%24%20exit&fontSize=25&fontColor=E6EDF3&animation=blinking" width="100%" alt="$ exit" />
 </div>
 
 <div align="center">
