@@ -138,7 +138,7 @@ at skillicons.dev (note: Python is `py`, Android Studio is
 
 **Tool badges** — `img.shields.io/badge/<LABEL>-<VALUE>-<COLOR>?style=for-the-badge&logo=<slug>`
 — every logo slug used here (ghidra, radare2, frida, x64dbg, gdb,
-volatility, magisk, termux, ollama, vllm, lmstudio, …) has been
+volatility, kernelsu, termux, ollama, vllm, lmstudio, …) has been
 live-verified to exist in simple-icons.
 
 ---

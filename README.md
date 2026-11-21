@@ -57,7 +57,7 @@ something gets disassembled — carefully, and mostly legally.
 
 phantom@parrot:~$ ps aux | grep -i passion
 USER              COMMAND
-android           roms --kernels --magisk --adb-surgery --smali
+android           roms --kernels --kernelsu --adb-surgery --smali
 parrot-linux      mate-desktop --pentest-toolbox --daily-driver
 llm-research      finetune --evals --local-inference --token-archaeology
 reverse-eng       apk --elf --firmware --everything-is-reversible
@@ -81,7 +81,7 @@ Connection to github closed by phantom. [process exited 0]
 > My pocket computer behaves exactly how I say — because I told it to.
 
 - **ROMs & kernels** — flashing, patching, and the occasional 2 AM rescue mission
-- **Root done right** — Magisk modules, LSPosed hooks, systemless everything
+- **Root done right** — KernelSU modules, LSPosed hooks, root that lives in the kernel — not userspace
 - **Deep in the stack** — ADB surgery, NDK/JNI, and smali archaeology when sources lie
 - **Hardened, not babysat** — my phone distrusts more apps than I do
 
@@ -92,7 +92,7 @@ Connection to github closed by phantom. [process exited 0]
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Magisk-root-0070F3?style=for-the-badge&logo=magisk&logoColor=white&labelColor=0D1117" alt="Magisk" />
+  <img src="https://img.shields.io/badge/KernelSU-root-0070F3?style=for-the-badge&logo=kernelsu&logoColor=white&labelColor=0D1117" alt="KernelSU" />
   <img src="https://img.shields.io/badge/ADB-surgery-0070F3?style=for-the-badge&logo=android&logoColor=white&labelColor=0D1117" alt="ADB" />
   <img src="https://img.shields.io/badge/Termux-pocket%20linux-0070F3?style=for-the-badge&logo=termux&logoColor=white&labelColor=0D1117" alt="Termux" />
   <img src="https://img.shields.io/badge/LineageOS-ROMs-0070F3?style=for-the-badge&logo=lineageos&logoColor=white&labelColor=0D1117" alt="LineageOS" />
