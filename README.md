@@ -27,7 +27,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=2F789F&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+the+best+linux+distro;asking+llms+questions+they%27d+rather+not+answer;but+they+answer+anyway+under+duress;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=2F789F&center=true&vCenter=true&width=700&height=50&duration=5000&pause=1000" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -49,10 +49,7 @@ phantom@parrot:~$ whoami
 FlyPhantomFly. PhantomThreads is the one you don't see.
 
 phantom@parrot:~$ cat ~/profile.md
-i break android phones, mostly on purpose. i run parrot as a daily
-driver and treat it like one. some days i fine tune small llms and
-ask them questions they'd rather not answer. the rest of the time
-something gets disassembled. carefully. mostly legally.
+i break android phones, mostly on purpose. apk-xray with llm automates apk protection destruction. some days i fine tune small llms and ask them questions they'd rather not answer...but they do anyway. ;) the rest of the time something gets disassembled. carefully. mostly legally.
 
 phantom@parrot:~$ ps aux | grep -i passion
 USER              COMMAND
@@ -87,7 +84,7 @@ Connection to github closed by phantom. [process exited 0]
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,gradle,c,cpp" alt="Android skills" />
+    <img src="https://skillicons.dev/icons?i=androidstudio,kotlin,java,c,cpp" alt="Android skills" />
   </a>
 </p>
 
@@ -125,10 +122,9 @@ Connection to github closed by phantom. [process exited 0]
 
 ## the parrot setup
 
-> full time Parrot Security OS. the toolbox is home. home is a toolbox.
+> full time Parrot Security OS.
 
-- parrot security os, installed on metal. not a VM
-- debian underneath, terminal on top
+- parrot security installed on metal
 - somewhere there's a script that rebuilds all of this from a bare ISO, if only I could find it
 
 <p align="center">
