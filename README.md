@@ -49,7 +49,10 @@ phantom@parrot:~$ whoami
 FlyPhantomFly. PhantomThreads is the one you don't see.
 
 phantom@parrot:~$ cat ~/profile.md
-i break android phones, mostly on purpose. apk-xray with llm automates apk protection destruction. some days i fine tune small llms and ask them questions they'd rather not answer...but they do anyway. ;) the rest of the time something gets disassembled. carefully. mostly legally.
+i break android phones, mostly on purpose.
+apk-xray with llm automates apk protection destruction.
+some days i fine tune small llms and ask them questions they'd rather not answer...but they do anyway. ;)
+the rest of the time something gets disassembled. carefully. mostly legally.
 
 phantom@parrot:~$ ps aux | grep -i passion
 USER              COMMAND
