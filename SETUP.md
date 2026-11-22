@@ -61,8 +61,8 @@ appear only after the workflows have run once:
 3. Then → **GitHub-Profile-3D-Contrib** → **Run workflow** → wait ~1 min
    - This commits **`profile-3d-contrib/`** into `main`
 4. Open `https://github.com/FlyPhantomFly`, everything should now be
-   alive: the header fade-in, the typing tagline, the streak ring, the
-   3D wall, and the snake devouring your contribution graph
+   alive: the typing tagline, the streak ring, the 3D wall, and the
+   snake devouring your contribution graph
 
 After that, both Actions run themselves on a daily cron, plus on every
 push to `main`, so tweaks regenerate instantly.
@@ -71,8 +71,8 @@ push to `main`, so tweaks regenerate instantly.
 
 | Element | Animation | Lives |
 |---|---|---|
-| capsule-render header | text fade-in (SMIL) | external SVG service |
-| capsule-render footer | `$ exit` blinking | external SVG service |
+| capsule-render header | flat twilight panel, static | external SVG service |
+| capsule-render footer | static `$ exit` | external SVG service |
 | typing tagline | 4-identity typing loop | external SVG service |
 | streak stats card | ring + fire pulse | external SVG service |
 | contribution snake | SMIL path animation | **your repo**, `output` branch (daily) |
@@ -111,15 +111,20 @@ If you ever want the profile to live on the other account:
 
 ## 6. Customization cheat sheet
 
-**Palette** (find & replace across `README.md`):
-`0D1117` dark base, `059669` darker emerald, `172554` midnight navy
+**Palette** (find & replace across `README.md`), sampled from the
+profile photo:
+`0D1117` dark base, `1D5180` steel mist (badges, borders, graph line),
+`2F789F` highlight (typing, titles, ring, points), banner gradient
+`081831` → `12345F`. Change the avatar, re-sample, or just tweak hexes.
 
 **Typing lines**: in the `readme-typing-svg` URL:
 - lines separated by `;`, spaces as `+`, commas as `%2C`, colons as `%3A`, apostrophes as `%27`
 - tune `duration` (typing speed) and `pause` (hold time), both in ms
 
 **Header text / size**: capsule-render URL: `text=`, `fontSize=`,
-`fontAlignY=` (vertical position, 0–100). Footer same idea.
+`fontAlignY=` (vertical position, 0–100). Footer same idea. The banner
+is a flat `type=rect` panel, no animation. Want the old wave back?
+Change `type=rect` to `type=waving` and add `&animation=fadeIn`.
 
 **3D wall variant**: one-line swap of the relative path:
 - `./profile-3d-contrib/profile-night-rainbow.svg` (current: dark, neon)
@@ -138,8 +143,10 @@ at skillicons.dev (note: Python is `py`, Android Studio is
 
 **Tool badges**: `img.shields.io/badge/<LABEL>-<VALUE>-<COLOR>?style=for-the-badge&logo=<slug>`
 - every logo slug used here (ghidra, radare2, frida, kernelsu,
-termux, lineageos, debian, zsh, huggingface, ollama, …) has been
-live-verified to exist in simple-icons.
+termux, lineageos, debian, zsh, parrotsecurity, huggingface, ollama,
+…) has been live-verified to exist in simple-icons. badges without an
+official logo (IDA Pro, IDA Assist, Neozygisk, ablation) render as
+plain text badges on purpose.
 
 ---
 
