@@ -25,7 +25,7 @@
 <br/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver%2C+not+a+VM;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=059669&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=i+break+phones+on+purpose;parrot+os+is+my+daily+driver;asking+llms+questions+they%27d+rather+not+answer;reverse+engineering%3A+everything+confesses&font=JetBrains+Mono&size=22&color=059669&center=true&vCenter=true&width=700&height=45&duration=4000&pause=1000" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -106,7 +106,7 @@ Connection to github closed by phantom. [process exited 0]
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,debian,bash,vim,git,githubactions,docker" alt="Parrot / Linux skills" />
+    <img src="https://skillicons.dev/icons?i=linux,git" alt="Parrot / Linux skills" />
   </a>
 </p>
 
@@ -128,7 +128,7 @@ Connection to github closed by phantom. [process exited 0]
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,sklearn,vscode" alt="AI / ML skills" />
+    <img src="https://skillicons.dev/icons?i=py" alt="AI / ML skills" />
   </a>
 </p>
 
